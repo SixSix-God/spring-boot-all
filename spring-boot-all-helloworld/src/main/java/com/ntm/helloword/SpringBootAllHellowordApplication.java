@@ -1,4 +1,4 @@
-package com.ntm.SpringBootAllHelloword;
+package com.ntm.helloword;
 
 import cn.hutool.core.util.StrUtil;
 import org.springframework.boot.SpringApplication;

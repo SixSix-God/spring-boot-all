@@ -1,4 +1,4 @@
-package com.ntm.SpringBootAllHelloword;
+package com.ntm.helloword;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

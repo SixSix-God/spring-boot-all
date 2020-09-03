@@ -9,11 +9,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>spring-boot-all-logback</artifactId>
+	<artifactId>spring-boot-all-log-aop</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-all-logback</name>
+	<name>spring-boot-all-log-aop</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -30,6 +30,11 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -39,10 +44,21 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+		</dependency>
+
+		<!-- 解析 UserAgent 信息 -->
+		<dependency>
+			<groupId>eu.bitwalker</groupId>
+			<artifactId>UserAgentUtils</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
-		<finalName>spring-boot-all-logback</finalName>
+		<finalName>spring-boot-all-log-aop</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -11,7 +11,8 @@
 <!--		<module>spring-boot-all-properties</module>-->
 <!--		<module>spring-boot-all-actuator</module>-->
 <!--		<module>spring-boot-all-admin</module>-->
-		<module>spring-boot-all-logback</module>
+<!--		<module>spring-boot-all-logback</module>-->
+		<module>spring-boot-all-log-aop</module>
 	</modules>
 	<packaging>pom</packaging>
 

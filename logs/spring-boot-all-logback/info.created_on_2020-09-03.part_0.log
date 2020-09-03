@@ -14,3 +14,16 @@
 2020-09-03 15:16:52.438  INFO 13128 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-09-03 15:16:52.511  INFO 13128 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 72 ms
 2020-09-03 15:17:05.543  INFO 13128 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 15:26:50.516  INFO 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    : Starting SpringBootAllLogbackApplication on pc-wh1909030 with PID 6760 (G:\fly\spring-boot-all\spring-boot-all-logback\target\classes started by WH1909030 in G:\fly\spring-boot-all)
+2020-09-03 15:26:50.555  INFO 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    : No active profile set, falling back to default profiles: default
+2020-09-03 15:26:53.410  INFO 6760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-03 15:26:53.445  INFO 6760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 15:26:53.446  INFO 6760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 15:26:53.727  INFO 6760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/all]    : Initializing Spring embedded WebApplicationContext
+2020-09-03 15:26:53.727  INFO 6760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2906 ms
+2020-09-03 15:26:54.187  INFO 6760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 15:26:54.577  INFO 6760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/all'
+2020-09-03 15:26:54.601  INFO 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    : Started SpringBootAllLogbackApplication in 5.895 seconds (JVM running for 7.351)
+2020-09-03 15:26:54.606  INFO 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    : Spring boot启动初始化了 119 个 Bean
+2020-09-03 15:26:54.609  WARN 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    : Spring boot启动初始化了 119 个 Bean
+2020-09-03 15:26:59.881  INFO 6760 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,27 @@
+2020-09-03 16:04:01,018 [main] INFO  [com.ntm.log.aop.SpringBootAllLogAopApplication] StartupInfoLogger.java:55 - Starting SpringBootAllLogAopApplication on pc-wh1909030 with PID 16256 (G:\fly\spring-boot-all\spring-boot-all-log-aop\target\classes started by WH1909030 in G:\fly\spring-boot-all)
+2020-09-03 16:04:01,025 [main] INFO  [com.ntm.log.aop.SpringBootAllLogAopApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2020-09-03 16:04:04,217 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2020-09-03 16:04:04,233 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-09-03 16:04:04,233 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 16:04:04,510 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/all]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-09-03 16:04:04,510 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3310 ms
+2020-09-03 16:04:05,250 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 16:04:05,768 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path '/all'
+2020-09-03 16:04:05,787 [main] INFO  [com.ntm.log.aop.SpringBootAllLogAopApplication] StartupInfoLogger.java:61 - Started SpringBootAllLogAopApplication in 6.102 seconds (JVM running for 7.655)
+2020-09-03 16:04:24,784 [http-nio-8080-exec-1] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/all]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 16:04:24,785 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-09-03 16:04:24,873 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 88 ms
+2020-09-03 16:04:25,033 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:49 - 【请求 URL】：http://localhost:8080/all/test
+2020-09-03 16:04:25,036 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:50 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-09-03 16:04:25,041 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:51 - 【请求类名】：com.ntm.log.aop.controller.TestController，【请求方法名】：test
+2020-09-03 16:04:25,074 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:54 - 【请求参数】：{}，
+2020-09-03 16:04:25,106 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:83 - 【请求耗时】：32毫秒
+2020-09-03 16:04:25,127 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:87 - 【浏览器类型】：CHROME，【操作系统】：WINDOWS_7，【原始User-Agent】：Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+2020-09-03 16:04:25,165 [http-nio-8080-exec-1] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:69 - 【返回值】：{"who":"me"}
+2020-09-03 16:05:33,849 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:49 - 【请求 URL】：http://localhost:8080/all/test
+2020-09-03 16:05:33,852 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:50 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-09-03 16:05:33,853 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:51 - 【请求类名】：com.ntm.log.aop.controller.TestController，【请求方法名】：test
+2020-09-03 16:05:34,047 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:54 - 【请求参数】：{"who":["123"]}，
+2020-09-03 16:05:34,048 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:83 - 【请求耗时】：0毫秒
+2020-09-03 16:05:34,049 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:87 - 【浏览器类型】：CHROME，【操作系统】：WINDOWS_7，【原始User-Agent】：Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+2020-09-03 16:05:34,049 [http-nio-8080-exec-4] INFO  [com.ntm.log.aop.aspectj.AopLog] AopLog.java:69 - 【返回值】：{"who":"123"}

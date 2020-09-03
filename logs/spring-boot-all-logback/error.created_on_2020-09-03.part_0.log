@@ -4,3 +4,9 @@
 java.lang.ArithmeticException: / by zero
 	at com.ntm.logback.SpringBootAllLogbackApplication.main(SpringBootAllLogbackApplication.java:22)
 
+2020-09-03 15:26:54.610 ERROR 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    SpringBootAllLogbackApplication.java:19: Spring boot启动初始化了 119 个 Bean
+2020-09-03 15:26:54.617 ERROR 6760 --- [main] c.n.l.SpringBootAllLogbackApplication    SpringBootAllLogbackApplication.java:24: 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.ntm.logback.SpringBootAllLogbackApplication.main(SpringBootAllLogbackApplication.java:22)
+

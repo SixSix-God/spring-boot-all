@@ -1,0 +1,6 @@
+2020-09-03 15:15:53.652 ERROR 13128 --- [main] c.n.l.SpringBootAllLogbackApplication    SpringBootAllLogbackApplication.java:19: Spring boot启动初始化了 119 个 Bean
+2020-09-03 15:15:53.658 ERROR 13128 --- [main] c.n.l.SpringBootAllLogbackApplication    SpringBootAllLogbackApplication.java:24: 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.ntm.logback.SpringBootAllLogbackApplication.main(SpringBootAllLogbackApplication.java:22)
+

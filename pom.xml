@@ -11,6 +11,7 @@
 <!--		<module>spring-boot-all-properties</module>-->
 <!--		<module>spring-boot-all-actuator</module>-->
 <!--		<module>spring-boot-all-admin</module>-->
+		<module>spring-boot-all-logback</module>
 	</modules>
 	<packaging>pom</packaging>
 
@@ -22,7 +23,7 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<spring.boot.version>2.1.0.RELEASE</spring.boot.version>
+		<spring.boot.version>2.3.3.RELEASE</spring.boot.version>
 		<mysql.version>8.0.12</mysql.version>
 		<hutool.version>5.0.0</hutool.version>
 		<guava.version>28.1-jre</guava.version>
